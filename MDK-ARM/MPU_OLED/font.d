@@ -1,4 +1,3 @@
-mpu_oled\font.o: ..\Hardware\font.c
-mpu_oled\font.o: ..\Hardware\font.h
-mpu_oled\font.o: F:\tools\keil\ARM\ARMCC\Bin\..\include\stdint.h
-mpu_oled\font.o: F:\tools\keil\ARM\ARMCC\Bin\..\include\string.h
+mpu_oled/font.o: ../Hardware/font.c ../Hardware/font.h \
+  F:\tools\keil\ARM\ARMCLANG\Bin\..\include\stdint.h \
+  F:\tools\keil\ARM\ARMCLANG\Bin\..\include\string.h

@@ -472,7 +472,7 @@
       <GroupNumber>5</GroupNumber>
       <FileNumber>22</FileNumber>
       <FileType>1</FileType>
-      <tvExp>1</tvExp>
+      <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\Hardware\mpu6050.c</PathWithFileName>
@@ -483,12 +483,12 @@
     <File>
       <GroupNumber>5</GroupNumber>
       <FileNumber>23</FileNumber>
-      <FileType>1</FileType>
-      <tvExp>1</tvExp>
+      <FileType>8</FileType>
+      <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Hardware\oled.c</PathWithFileName>
-      <FilenameWithoutPath>oled.c</FilenameWithoutPath>
+      <PathWithFileName>..\Hardware\oled.cpp</PathWithFileName>
+      <FilenameWithoutPath>oled.cpp</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
