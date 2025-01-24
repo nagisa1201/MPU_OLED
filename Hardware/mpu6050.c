@@ -30,8 +30,6 @@
  * | Kalman filter algorithm used from https://github.com/TKJElectronics/KalmanFilter
  * |---------------------------------------------------------------------------------
  */
-
-#include <math.h>
 #include "mpu6050.h"
 
 #define RAD_TO_DEG 57.295779513082320876798154814105

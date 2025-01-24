@@ -406,6 +406,11 @@
               <FileType>1</FileType>
               <FilePath>../Core/Src/stm32f1xx_hal_msp.c</FilePath>
             </File>
+            <File>
+              <FileName>maincpp.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>..\Core\Src\maincpp.cpp</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -507,14 +512,19 @@
               <FilePath>..\Hardware\font.c</FilePath>
             </File>
             <File>
-              <FileName>mpu6050.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\Hardware\mpu6050.c</FilePath>
-            </File>
-            <File>
               <FileName>oled.cpp</FileName>
               <FileType>8</FileType>
               <FilePath>..\Hardware\oled.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>mpu6050.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>..\Hardware\mpu6050.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>common.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\Hardware\common.h</FilePath>
             </File>
           </Files>
         </Group>

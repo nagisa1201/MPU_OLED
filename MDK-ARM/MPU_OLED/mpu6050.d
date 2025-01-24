@@ -1,5 +1,6 @@
-mpu_oled/mpu6050.o: ../Hardware/mpu6050.c \
-  F:\tools\keil\ARM\ARMCLANG\Bin\..\include\math.h ../Hardware/mpu6050.h \
+mpu_oled/mpu6050.o: ../Hardware/mpu6050.cpp ../Hardware/mpu6050.h \
+  F:\tools\keil\ARM\ARMCLANG\Bin\..\include\libcxx\stdint.h \
+  F:\tools\keil\ARM\ARMCLANG\Bin\..\include\libcxx\__config \
   F:\tools\keil\ARM\ARMCLANG\Bin\..\include\stdint.h ../Core/Inc\main.h \
   ../Drivers/STM32F1xx_HAL_Driver/Inc\stm32f1xx_hal.h \
   ../Core/Inc\stm32f1xx_hal_conf.h \
@@ -14,7 +15,9 @@ mpu_oled/mpu6050.o: ../Hardware/mpu6050.c \
   F:\tools\keil\ARM\ARMCLANG\Bin\..\include\arm_compat.h \
   ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h \
   ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
+  F:\tools\keil\ARM\ARMCLANG\Bin\..\include\libcxx\stddef.h \
   F:\tools\keil\ARM\ARMCLANG\Bin\..\include\stddef.h \
+  F:\tools\keil\ARM\ARMCLANG\Bin\..\include\libcxx\__nullptr \
   ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h \
   ../Drivers/STM32F1xx_HAL_Driver/Inc\stm32f1xx_hal_gpio.h \
   ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h \
@@ -26,4 +29,8 @@ mpu_oled/mpu6050.o: ../Hardware/mpu6050.c \
   ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h \
   ../Drivers/STM32F1xx_HAL_Driver/Inc\stm32f1xx_hal_i2c.h \
   ../Drivers/STM32F1xx_HAL_Driver/Inc\stm32f1xx_hal_pwr.h \
-  ../Drivers/STM32F1xx_HAL_Driver/Inc\stm32f1xx_hal_uart.h
+  ../Drivers/STM32F1xx_HAL_Driver/Inc\stm32f1xx_hal_uart.h \
+  F:\tools\keil\ARM\ARMCLANG\Bin\..\include\libcxx\math.h \
+  F:\tools\keil\ARM\ARMCLANG\Bin\..\include\math.h \
+  F:\tools\keil\ARM\ARMCLANG\Bin\..\include\libcxx\type_traits \
+  F:\tools\keil\ARM\ARMCLANG\Bin\..\include\libcxx\cstddef

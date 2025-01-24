@@ -2,7 +2,7 @@
  * @Author: Nagisa 2964793117@qq.com
  * @Date: 2025-01-23 21:35:30
  * @LastEditors: Nagisa 2964793117@qq.com
- * @LastEditTime: 2025-01-23 22:47:07
+ * @LastEditTime: 2025-01-24 23:44:07
  * @FilePath: \MDK-ARMf:\project\git\MPU_OLED\Hardware\oled.h
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -44,6 +44,7 @@ namespace OLED
 
     class OLED_t :public OLEDbase_t
     {
+      public:
         OLED_t()=default;
         OLED_t(I2C_HandleTypeDef *hi2c):OLEDbase_t(hi2c){};
         ~OLED_t();

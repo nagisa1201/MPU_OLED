@@ -3,6 +3,7 @@
 "mpu_oled\main.o"
 "mpu_oled\stm32f1xx_it.o"
 "mpu_oled\stm32f1xx_hal_msp.o"
+"mpu_oled\maincpp.o"
 "mpu_oled\stm32f1xx_hal_gpio_ex.o"
 "mpu_oled\stm32f1xx_hal_i2c.o"
 "mpu_oled\stm32f1xx_hal.o"
@@ -20,8 +21,8 @@
 "mpu_oled\stm32f1xx_hal_uart.o"
 "mpu_oled\system_stm32f1xx.o"
 "mpu_oled\font.o"
-"mpu_oled\mpu6050.o"
 "mpu_oled\oled.o"
+"mpu_oled\mpu6050.o"
 --strict --scatter "MPU_OLED\MPU_OLED.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers

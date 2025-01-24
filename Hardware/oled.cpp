@@ -29,6 +29,8 @@ uint8_t OLED_GRAM[OLED_PAGE][OLED_COLUMN];
 
 
 using namespace OLED;
+OLEDbase_t::~OLEDbase_t() {}
+OLED_t::~OLED_t() {}
 // ========================== 底层通信函数 ==========================
 
 /**
