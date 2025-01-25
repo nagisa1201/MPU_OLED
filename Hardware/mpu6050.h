@@ -65,10 +65,7 @@ class MPU6050_t
     {
         public:
             MPU6050_t()=default;
-            MPU6050_t(I2C_HandleTypeDef *I2Cx):_I2Cx(I2Cx)
-            {
-                MPU6050_Init();
-            };
+            MPU6050_t(I2C_HandleTypeDef *I2Cx):_I2Cx(I2Cx){};
 
             ~MPU6050_t();
             uint8_t MPU6050_Init();
